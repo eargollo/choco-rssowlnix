@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rssowlnix</id>
-    <version>2.6.1-beta</version>
+    <version>2.6.1-beta2</version>
     <packageSourceUrl>https://github.com/eargollo/choco-rssowlnix</packageSourceUrl>
     <owners>eargollo</owners>
     <title>RSSOwlnix</title>
@@ -24,7 +24,8 @@ RSSOwlnix is a fork of the popular but discontined RSSOwl. It is a powerful appl
 * [Changelog](https://github.com/Xyrio/RSSOwlnix/releases)
 
 #### Package
-* Built and uploaded by [dtgm](https://chocolatey.org/profiles/eargollo)
+* Creating desktop and start menu links
+* Built and uploaded by [eargollo](https://chocolatey.org/profiles/eargollo)
     </releaseNotes>
   </metadata>
   <files>
