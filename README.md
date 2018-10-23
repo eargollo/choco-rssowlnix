@@ -21,3 +21,9 @@ Uninstalling
 ```
 $ choco uninstall rssowlnix
 ```
+
+Publishing
+```
+$ choco apikey -k [API_KEY_HERE] -source https://push.chocolatey.org/
+$ choco push rssowlnix.2.6.1-beta.nupkg -s https://push.chocolatey.org/
+```
