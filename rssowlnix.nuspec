@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rssowlnix</id>
+    <version>2.6.1-beta</version>
+    <packageSourceUrl>https://github.com/eargollo/choco-rssowlnix</packageSourceUrl>
+    <owners>eargollo</owners>
+    <title>RSSOwlnix</title>
+    <authors>Xyrio</authors>
+    <projectUrl>https://github.com/Xyrio/RSSOwlnix</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0ecce39e0968d5e99c1848096edc115cb3fffb62/icons/rssowl.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Xyrio/RSSOwlnix</projectSourceUrl>
+    <docsUrl>https://github.com/Xyrio/RSSOwlnix/wiki/FAQ</docsUrl>
+    <bugTrackerUrl>https://github.com/Xyrio/RSSOwlnix/issues</bugTrackerUrl>
+    <tags>rssowlnix news newsreader rss really-simple-syndication rssowl</tags>
+    <summary>Free and powerful news feed reader</summary>
+    <description>
+RSSOwlnix is a fork of the popular but discontined RSSOwl. It is a powerful application to organize, search and read your RSS, RDF &amp; Atom news feeds in a comfortable way. Highlights are saved searches, google reader sync, notifications, filters, fast fulltext search and a flexible, clean user interface.
+    </description>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/Xyrio/RSSOwlnix/releases)
+
+#### Package
+* Built and uploaded by [dtgm](https://chocolatey.org/profiles/eargollo)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
