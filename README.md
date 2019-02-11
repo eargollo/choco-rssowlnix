@@ -51,11 +51,11 @@ Create the package:
 $ choco pack
 Chocolatey v0.10.11
 Attempting to build package from 'rssowlnix.nuspec'.
-Successfully created package 'C:\...\choco-rssowlnix\rssowlnix.2.6.1-beta.nupkg'
+Successfully created package 'C:\...\choco-rssowlnix\rssowlnix.2.7.0-beta.nupkg'
 ```
 
 Publishing
 ```
 $ choco apikey -k [API_KEY_HERE] -source https://push.chocolatey.org/
-$ choco push rssowlnix.2.6.1-beta.nupkg -s https://push.chocolatey.org/
+$ choco push rssowlnix.2.7.0-beta.nupkg -s https://push.chocolatey.org/
 ```
