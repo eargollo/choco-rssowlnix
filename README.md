@@ -47,7 +47,6 @@ EC68294C7ED8A753155E71B30411C6128051AE47DB3A61F7B74B94C66E1DDE91
 Update checksum at `tools/chocolateyinstall.ps1`.
 
 Create the package:
-Creating the package
 ```
 $ choco pack
 Chocolatey v0.10.11
@@ -55,3 +54,8 @@ Attempting to build package from 'rssowlnix.nuspec'.
 Successfully created package 'C:\...\choco-rssowlnix\rssowlnix.2.6.1-beta.nupkg'
 ```
 
+Publishing
+```
+$ choco apikey -k [API_KEY_HERE] -source https://push.chocolatey.org/
+$ choco push rssowlnix.2.6.1-beta.nupkg -s https://push.chocolatey.org/
+```

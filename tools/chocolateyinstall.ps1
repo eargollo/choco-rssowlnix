@@ -22,3 +22,15 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
+
+# Add shortcut to the desktop
+Install-ChocolateyShortcut `
+  -ShortcutFilePath "$env:USERPROFILE\Desktop\RSSOwlnix.lnk" `
+  -TargetPath "$toolsDir\RSSOwlnix\RSSOwlnix.exe" `
+  -Description 'RSSOwlnix'
+
+#install start menu shortcut
+$linkName = "RSSOwlnix.lnk"
+$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$shortcutFilePath = Join-Path $programs $linkName
+Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath "$toolsDir\RSSOwlnix\RSSOwlnix.exe"
