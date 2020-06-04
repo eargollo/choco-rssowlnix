@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/Xyrio/RSSOwlnix/releases/download/2.7.1/RSSOwlnix-2-7-1-win32.win32.x86.zip' # download url, HTTPS preferred
-$url64      = 'https://github.com/Xyrio/RSSOwlnix/releases/download/2.7.1/RSSOwlnix-2-7-1-win32.win32.x86_64.zip' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
+$url        = 'https://github.com/Xyrio/RSSOwlnix/releases/download/2.8.0/RSSOwlnix-2-8-0-win32.win32.x86.zip' # download url, HTTPS preferred
+$url64      = 'https://github.com/Xyrio/RSSOwlnix/releases/download/2.8.0/RSSOwlnix-2-8-0-win32.win32.x86_64.zip' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -12,9 +12,9 @@ $packageArgs = @{
 
   softwareName  = 'RSSOwlnix*'
 
-  checksum      = '11705250A773E8A73AF5E65E430258FE73C55C33DCB41C9214C32702EC65E2DD'
+  checksum      = '2667FFFA88D2DB996B71893595A9FFB10A5321D85BAF9FF46BAAA708A46BC830'
   checksumType  = 'sha256' 
-  checksum64    = 'B316520D12A71185A1077D8E2C8FD2737CB789F26557CCF6AEEC3322C63293B1'
+  checksum64    = '791DDA169C9C640F8D2E00539F1DC9326C1347AC91A6448B38AB683DAA8481B2'
   checksumType64= 'sha256' 
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0
