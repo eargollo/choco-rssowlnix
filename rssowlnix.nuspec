@@ -9,7 +9,7 @@
     <title>RSSOwlnix</title>
     <authors>Xyrio</authors>
     <projectUrl>https://github.com/Xyrio/RSSOwlnix</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0ecce39e0968d5e99c1848096edc115cb3fffb62/icons/rssowl.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/eargollo/choco-rssowlnix/1db9d48a8e6d6bbe7a4264ad6d58a2b21d3593dc/rssowl.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Xyrio/RSSOwlnix</projectSourceUrl>
     <docsUrl>https://github.com/Xyrio/RSSOwlnix/wiki/FAQ</docsUrl>
